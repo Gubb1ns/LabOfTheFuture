@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+.container{
+	max-width: 1600px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.box{
+	max-width: 300px;
+ 	height: 30px;
+ 	border: 1px solid black;
+  	margin: auto;
+  	background-color:  white;
+  	color: black;
+ 	text-align: center;
+}
+
+#banner{
+	background: #ffffff;
+	min-height: 85px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50);
+	margin: auto;
+	allign-items: center;
+}
+
+
+#PageBackGround{
+	/* background: url(https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_960_720.jpg);
+	/* Center and scale the image nicely */
+	background-color: #1e4471;
+	color: white;
+	text-align: center;
+	width: 33.33%;
+	float: left;
+	height: 500px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50);
+	min-width: 400px;
+}
+
+#about{
+	width: 33.33%;
+	background-color: #1e4471;
+	float: left;
+	text-align: center;
+	height: 500px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50);
+	color: white;
+	min-width: 400px;
+}
+
+
+#about p{
+	padding: 20px;
+	text-align: left;
+	font-size: 16px;
+}
+
+#search{
+	width: 33.33%;
+	background-color: #1e4471;
+	float: left;
+	text-align: center;
+	height: 500px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50);
+	color: white;
+	min-width: 400px;
+}
+
+input[type=text]{
+	font-size: 20px;
+}
+
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+
+header{
+	text-align: center;
+}
+
+header #logo{
+	width: 100px;
+	margin-left: auto;
+ 	margin-right:auto;
+ 	text-allign: center;
+ 	padding-top: 15px;	
+}
